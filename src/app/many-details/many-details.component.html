@@ -1,0 +1,15 @@
+<div class="many-details-container">
+  <div class="button-container">
+    <button class="button-class" type="button" (click)="toggleActiveDetails()">
+      Display Details
+    </button>
+  </div>
+  <br />
+  <div class="my-details"><p class="details-text" *ngIf="activeDetails">SERVE DETAILS</p></div>
+  <br />
+  <ul class="details-list-container">
+    <li class="list-element" *ngFor="let detail of detailsArray">
+      {{ detail }}
+    </li>
+  </ul>
+</div>

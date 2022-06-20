@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+.many-details-container{
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.button-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+}
+
+.button-class{
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-align: center;
+    outline: none;
+    border: 0px;
+    background-color: rgb(186, 137, 231);
+    color: white;
+    font-weight: bold;
+}
+
+.my-details{
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.details-text{
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    background-color:rgb(210, 187, 233);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.details-list-container{
+    width: 100%;
+    align-self: flex-start;
+}
+
+.list-element{
+    width: 100%;
+    text-align: left;
+    list-style: none;
+    padding-left: none;
+    margin-bottom: 16px;
+    padding: 10px 20px;
+    border-left: solid 10px blue;
+    background-color:rgb(186, 137, 231);
+    font-weight: bolder;
+    color: white;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
